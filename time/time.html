@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时间练习</title>
+    <style>
+        body, div {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+
+            //显示当前时间
+            showTime();
+            function showTime() {
+                var myDate = new Date();
+                var year = myDate.getFullYear();
+                var month = myDate.getMonth() + 1;
+                var date = myDate.getDate();
+                var d = myDate.getDay();
+                var hour = myDate.getHours();
+                var min = myDate.getMinutes();
+                var sec = myDate.getSeconds();
+
+                function check(i) {
+                    if (i < 0) {
+                        i = "0" + i;
+                    }
+                    return i;
+                }
+
+                check(hour);
+                check(min);
+                check(sec);
+
+                var weekday = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+                document.getElementById("showTimer").innerHTML = year + "年" + month + "月" + date + "日" + ' ' + weekday[d] + hour + ":" + min + ":" + sec;
+                setTimeout(showTime, 500);
+            }
+
+
+            var curTime = new Date();
+            //倒计时天数
+            var endTime1 = new Date(2019, 6, 30);
+            var leftTime1 = Math.ceil((endTime1.getTime() - curTime.getTime()) / (24 * 60 * 60 * 1000));
+            document.getElementById("showTimer1").innerHTML = "距离毕业还剩" + leftTime1 + "天";
+
+            //倒计时具体到秒
+            Timer();
+            function Timer() {
+                var myDate = new Date();
+                var endTime2 = new Date(2018, 12, 30, 24);
+                var leftTime2 = Math.floor((endTime2.getTime() - myDate.getTime()) / 1000);
+                var day = Math.floor((leftTime2 / (60 * 60 * 24)));
+                var h = Math.floor((leftTime2 / 3600) % 24);
+                var m = Math.floor((leftTime2 / 60) % 60);
+                var s = Math.floor(leftTime2 % 60);
+                document.getElementById("showTimer2").innerHTML = "距离团购结束还剩" + day + "天" + h + "小时" + m + "分钟" + s + "秒";
+
+                if (leftTime2 <= 0) {
+                    document.getElementById("showTimer2").innerHTML = "团购结束";
+                } else {
+                    setTimeout(Timer, 500);
+                }
+                }
+            }
+    </script>
+</head>
+<body>
+
+</body>
+<div id="showTimer"></div>
+<div id="showTimer1"></div>
+<div id="showTimer2"></div>
+</html>
