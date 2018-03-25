@@ -173,4 +173,4 @@
             margin-left: 70px;
         }
 
-        .ui_boxyClose{width:28px;height:28px;position:absolute;top:-10px;right:-10px;cursor:pointer;background:url('../images/boxy_btn.png') no-repeat;z-index:1}.ie6_0 .ui_boxyClose{background:0;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='boxy_btn.png',sizingMethod='scale')}
+        .ui_boxyClose{width:28px;height:28px;position:absolute;top:-10px;right:-10px;cursor:pointer;background:url('imag/boxy_btn.png') no-repeat;z-index:1}.ie6_0 .ui_boxyClose{background:0;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='boxy_btn.png',sizingMethod='scale')}
