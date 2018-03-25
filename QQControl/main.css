@@ -16,7 +16,7 @@
 
 
         .login_logo_webqq {
-            background: url('imag/login_window_logo.png') no-repeat -210px -0px;
+            background: url('img/login_window_logo.png') no-repeat -210px -0px;
             margin-left: 100px;
             margin-top: 10px;
             width: 200px;
@@ -49,7 +49,7 @@
                 }
 
         .btn {
-            background: url("imag/login_btn.png") no-repeat -111px 0;
+            background: url("img/login_btn.png") no-repeat -111px 0;
             width: 111px;
             height: 36px;
             border: 0;
@@ -76,7 +76,7 @@
         }
 
         .login-state-down {
-            background: url("imag/ptlogin.png") no-repeat scroll 0 -22px transparent;
+            background: url("img/ptlogin.png") no-repeat scroll 0 -22px transparent;
             float: left;
             height: 6px;
             margin-top: 5px;
@@ -102,27 +102,27 @@
         }
 
         .login-state .callme {
-            background: url("imag/ptlogin.png") -72px 0 no-repeat;
+            background: url("img/ptlogin.png") -72px 0 no-repeat;
         }
 
         .login-state .online {
-            background: url("imag/ptlogin.png") 0 0 no-repeat;
+            background: url("img/ptlogin.png") 0 0 no-repeat;
         }
 
         .login-state .away {
-            background: url("imag/ptlogin.png") -18px 0 no-repeat;
+            background: url("img/ptlogin.png") -18px 0 no-repeat;
         }
 
         .login-state .busy {
-            background: url("imag/ptlogin.png") -36px 0 no-repeat;
+            background: url("img/ptlogin.png") -36px 0 no-repeat;
         }
 
         .login-state .silent {
-            background: url("imag/ptlogin.png") -108px 0 no-repeat;
+            background: url("img/ptlogin.png") -108px 0 no-repeat;
         }
 
         .login-state .hidden {
-            background: url("imag/ptlogin.png") -54px 0 no-repeat;
+            background: url("img/ptlogin.png") -54px 0 no-repeat;
         }
 
         .statePanel {
@@ -173,4 +173,4 @@
             margin-left: 70px;
         }
 
-        .ui_boxyClose{width:28px;height:28px;position:absolute;top:-10px;right:-10px;cursor:pointer;background:url('imag/boxy_btn.png') no-repeat;z-index:1}.ie6_0 .ui_boxyClose{background:0;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='boxy_btn.png',sizingMethod='scale')}
+        .ui_boxyClose{width:28px;height:28px;position:absolute;top:-10px;right:-10px;cursor:pointer;background:url('img/boxy_btn.png') no-repeat;z-index:1}.ie6_0 .ui_boxyClose{background:0;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='boxy_btn.png',sizingMethod='scale')}
