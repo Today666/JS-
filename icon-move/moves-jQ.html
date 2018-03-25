@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画综合-jQ</title>
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <style>
+        body,div,ul,li,a,span,p{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration:none;
+        }
+        li{
+            list-style: none;
+        }
+        .cell{
+            height: 170px;
+            width: 230px;
+            font-size: 12px;
+            margin: 0 auto;
+
+        }
+        #move li{
+            height: 80px;
+            width: 70px;
+            float: left;
+            border: 1px solid #f4f4f4;
+            position: relative;
+        }
+        #move li a{
+            text-align: center;
+            display: block;
+            color: #3c3c3c;
+            cursor:pointer;
+        }
+        #move li a:hover{
+            color: red;
+        }
+
+        #move li a p{
+            line-height: 24px;
+            margin-top: 50px;
+
+        }
+        #move a .item-icon{
+            position: absolute;
+            display: inline-block;
+            height: 36px;
+            width: 36px;
+            left: 17px;
+            top: 10px;
+            opacity: 1;
+            filter:alpha(opacity:100);
+        }
+
+    </style>
+    <script>
+        $(function(){
+            $("#move a").mouseenter(function(){
+                $(this).find("span").animate({top:"-10px",opacity:0},300,function(){
+                    $(this).css({"top":"30px"});
+                    $(this).animate({top:"10px",opacity:1},200)
+                });
+            })
+        })
+    </script>
+</head>
+<body>
+
+</body>
+<div class="cell">
+    <ul id="move">
+        <li class="item-1"><a href="#"><span class="item-icon"><img src="img/tel-fare.jpg"></span><p>话费</p></a></li>
+        <li class="item-2"><a href="#"><span class="item-icon"><img src="img/ticket.jpg"></span><p>火车票</p></a></li>
+        <li class="item-3"><a href="#"><span class="item-icon"><img src="img/game.jpg"></span><p>游戏</p></a></li>
+        <li class="item-4"><a href="#"><span class="item-icon"><img src="img/imove.jpg"></span><p>电影</p></a></li>
+        <li class="item-5"><a href="#"><span class="item-icon"><img src="img/travel.jpg"></span><p>旅行</p></a></li>
+        <li class="item-6"><a href="#"><span class="item-icon"><img src="img/hotel.jpg"></span><p>酒店</p></a></li>
+    </ul>
+</div>
+</html>
