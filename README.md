@@ -3,7 +3,7 @@
 <h3>LotteryDraw——抽奖小<a href="https://today666.github.io/JSPractices/LotteryDraw/index.html">demo</a></h3>
 <p>功能：可用鼠标或enter键完成开始抽奖与停止抽奖的动作</p>
 <h3>QQControl——QQ面板控制小<a href="https://today666.github.io/JSPractices/QQControl/index.html">demo</a></h3>
-<p>功能：可用鼠标完成拖曳与改变登陆状态的动作</p>
+<p>功能：可用鼠标完成对控制面板的拖曳与改变登陆状态的动作</p>
 <h3>icon-move——图标运动小demo</h3>
 <p>功能：当鼠标移入时，图标开始运动</p> 
 <a href="https://today666.github.io/JSPractices/icon-move/moves-JS.html">JS版</a><br />
