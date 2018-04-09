@@ -12,4 +12,9 @@
 <p>功能：<a href="https://today666.github.io/JSPractices/scroll-moves/Con-Scroll.html">连续滚动</a>，鼠标移入时停止滚动，鼠标移出时继续滚动；<a href="https://today666.github.io/JSPractices/scroll-moves/batch-Scroll.html">间歇滚动</a>，自动完成单行信息条滚动</p>
 <h3>time——时间控制小<a href="https://today666.github.io/JSPractices/time/time.html">demo</a></h3>
 <p>功能：各种控制时间</p>
+<h3>WaterFall布局</h3>
+<p>瀑布流布局：宽度一致的多列布局，滑动页面时加载从服务端传来的新图片</p>
+<p><a href="https://today666.github.io/JSPractices/WaterFall/waterfall-JS.html">利用原生JS实现</a></p>
+<p><a href="https://today666.github.io/JSPractices/WaterFall/waterfall-jQ.html">利用jQuery实现</a></p>
+
 
